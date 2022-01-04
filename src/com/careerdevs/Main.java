@@ -10,5 +10,10 @@ public class Main {
         String  fName = "Jazlyn";
         String  lName = "Luben";
         System.out.println(fName.concat(lName));
+        System.out.println(createFullName("Donald","Duck"));
+    }
+
+    public static String createFullName(String firstName, String  lastName){
+          return firstName + " " + lastName;
     }
 }

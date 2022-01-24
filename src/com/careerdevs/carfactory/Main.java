@@ -19,6 +19,9 @@ public class Main {
 //        Scanner userinput1 = scan.nextLine();
         System.out.println(owner + " owns the car "+ make + " " + model);
     }
+    public  static  void createACarObject(){
 
+
+    }
 
 }

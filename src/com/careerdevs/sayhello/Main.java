@@ -8,6 +8,8 @@ public class Main {
         whatIsYourFullName();
         whatIsYourAge();
         doYouLikeBananas();
+        //This is a test comment
+
 
     }
     public static void whatIsYourName(){

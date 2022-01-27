@@ -14,8 +14,15 @@ public class Main {
         System.out.println(createFullName("Jazlyn","Luben"));
 
         //challenge 3
-//        String generatedName = NameGenerator.generateFullName( firstName,  lastName);
-//        System.out.println(generatedName);
+
+
+        Car car1 = new Car("Camaro 2ss","Chevy",10000,0.10);
+        System.out.println(car1);
+        Car car2 =new Car("Mustang Gt","Ford",300000,0.50);
+        System.out.println(car2);
+        Car car3 = new Car("Hellcat","Dodge",100,0.90);
+        System.out.println(car3);
+
 
     }
     public static String createFullName(String firstName, String  lastName){

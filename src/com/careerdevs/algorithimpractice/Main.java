@@ -4,6 +4,7 @@ public class Main {
     public static void main( String [] args){
         System.out.println(reverse("Think different."));
         System.out.println(equal(2, 3, 4));
+        System.out.println(countTrue(new boolean[] { false, false, false, false }));
 
     }
     public static String reverse(final String str) {
@@ -20,5 +21,15 @@ public class Main {
             return 0;
         }
         return 2;
+    }
+    public static int countTrue(boolean[] arr) {
+        int countNum = 0;
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] == true ){
+                countNum++;
+            }
+
+        }
+        return countNum;
     }
 }

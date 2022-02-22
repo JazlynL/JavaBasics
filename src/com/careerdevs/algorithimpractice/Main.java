@@ -5,6 +5,9 @@ public class Main {
         System.out.println(reverse("Think different."));
         System.out.println(equal(2, 3, 4));
         System.out.println(countTrue(new boolean[] { false, false, false, false }));
+//        System.out.println(existsHigher());
+        //we use curly brackets to output algorithim.
+        System.out.println(reverseInt(new int[]{1,2,3,4,5}));
 
     }
     public static String reverse(final String str) {
@@ -32,4 +35,33 @@ public class Main {
         }
         return countNum;
     }
+
+    public static int[] reverseInt(int[] arr) {
+        int [] reverse = new int[arr.length];
+        for( int i = arr.length - 1; i >= 0 ; i--){
+            reverse[i] = arr[arr.length -1 - i];
+        }
+        return reverse;
+
+    }
 }
+
+
+// practicing reversing an Array in Java
+
+
+
+
+//    public static int existsHigher(int[] arr, int n) {
+//        int countNum1 = 0;
+//        for (int i = 0 ; i < arr.length;i++){
+//            if ( arr[i] >= n){
+//
+//                countNum1++;
+//                return true;
+//
+//            }
+//        }
+//         return false;
+//    }
+//}
